@@ -26,24 +26,6 @@
                     <docencoding>UTF-8</docencoding>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <filesets>
-                        <fileset>
-                            <directory>${basedir}/../task-maven/jar</directory>
-                        </fileset>
-                        <fileset>
-                            <directory>${basedir}/../easterParty</directory>
-                            <includes>
-                                <include>attenders.json</include>
-                            </includes>
-                        </fileset>
-                    </filesets>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
