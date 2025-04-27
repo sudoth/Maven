@@ -8,7 +8,7 @@
         <groupId>ru.hse</groupId>
         <artifactId>easter</artifactId>
         <version>1.0.0</version>
-        <relativePath>../easter/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     
     <artifactId>easter-party</artifactId>
