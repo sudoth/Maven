@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>ru.hse</groupId>
+        <groupId>mipt</groupId>
         <artifactId>easter</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
@@ -16,7 +16,7 @@
     
     <dependencies>
         <dependency>
-            <groupId>ru.hse</groupId>
+            <groupId>mipt</groupId>
             <artifactId>easter-preparation</artifactId>
             <version>1.0.0</version>
         </dependency>

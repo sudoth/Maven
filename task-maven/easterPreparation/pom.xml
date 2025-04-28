@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>ru.hse</groupId>
+        <groupId>mipt</groupId>
         <artifactId>easter</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>easter-party</artifactId>
+    <artifactId>easter-preparation</artifactId>
     <version>1.0.0</version>
     
     <dependencies>
@@ -25,7 +25,6 @@
     
     <build>
         <plugins>
-            <!-- Создаем папку jar перед сборкой -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -48,7 +47,6 @@
                 </executions>
             </plugin>
             
-            <!-- Настройка сборки JAR -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -58,7 +56,6 @@
                 </configuration>
             </plugin>
             
-            <!-- Копирование зависимостей -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>

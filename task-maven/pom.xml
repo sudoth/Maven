@@ -4,15 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>ru.hse</groupId>
+    <groupId>mipt</groupId>
     <artifactId>easter</artifactId>
-    <artifactId>easter-party</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     
     <modules>
-        <module>easterPreparation</module>
-        <module>easterParty</module>
+        <module>easter-preparation</module>
+        <module>easter-party</module>
     </modules>
     
     <properties>
