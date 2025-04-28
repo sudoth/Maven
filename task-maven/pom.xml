@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
     
     <modules>
-        <module>easter-preparation</module>
-        <module>easter-party</module>
+        <module>easterPreparation</module>
+        <module>easterParty</module>
     </modules>
     
     <properties>
