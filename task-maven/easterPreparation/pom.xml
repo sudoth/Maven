@@ -11,7 +11,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <artifactId>easter-preparation</artifactId>
+    <artifactId>easter-party</artifactId>
     <version>1.0.0</version>
     
     <dependencies>
