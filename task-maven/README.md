@@ -53,3 +53,4 @@
 * [https://mvnrepository.com/repos/central](https://mvnrepository.com/repos/central) - maven central repository, одно из крупнейших хранилищ библиотек и фреймворков
 * [https://stackoverflow.com/](https://stackoverflow.com/) - решения большинства проблем можно найти здесь
 * [https://github.com/akhtyamovpavel/BuildExamples-TP/tree/master/MavenExamples](https://github.com/akhtyamovpavel/BuildExamples-TP/tree/master/MavenExamples) - здесь можно найти примеры использования maven
+
