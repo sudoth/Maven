@@ -17,7 +17,7 @@
     
     <dependencies>
         <dependency>
-            <groupId>mipt</groupId>
+            <groupId>org.example</groupId>
             <artifactId>easter-preparation</artifactId>
             <version>1.0.0</version>
         </dependency>
