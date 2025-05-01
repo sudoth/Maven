@@ -36,6 +36,7 @@
                 </includes>
             </resource>
         </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
