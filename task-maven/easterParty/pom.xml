@@ -37,26 +37,26 @@
             </resource>
         </resources>
 
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>3.2.0</version>
-            <configuration>
-                <filesets>
-                    <fileset>
-                        <directory>${project.basedir}/../jar</directory>
-                    </fileset>
-                    <fileset>
-                        <directory>${project.basedir}</directory>
-                        <includes>
-                            <include>attenders.json</include>
-                        </includes>
-                    </fileset>
-                </filesets>
-            </configuration>
-        </plugin>
-
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>${project.basedir}/../jar</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>${project.basedir}</directory>
+                            <includes>
+                                <include>attenders.json</include>
+                            </includes>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
