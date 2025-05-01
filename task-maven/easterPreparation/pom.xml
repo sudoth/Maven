@@ -29,7 +29,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.2</version>
                 <configuration>
-                    <outputDirectory>${project.basedir}/../jar</outputDirectory>
+                    <outputDirectory>${project.basedir}/../task-maven/jar</outputDirectory>
                 </configuration>
             </plugin>
 
@@ -44,7 +44,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.basedir}/../jar</outputDirectory>
+                            <outputDirectory>${project.basedir}/../task-maven/jar</outputDirectory>
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>
                             </descriptorRefs>
@@ -65,7 +65,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.basedir}/../jar/libs</outputDirectory>
+                            <outputDirectory>${project.basedir}/../task-maven/jar/libs</outputDirectory>
                             <includeScope>runtime</includeScope>
                         </configuration>
                     </execution>
