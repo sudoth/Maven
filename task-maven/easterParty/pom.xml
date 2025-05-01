@@ -11,9 +11,8 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     
-    <groupId>org.example</groupId>
     <artifactId>easter-party</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     
     <dependencies>
         <dependency>
@@ -51,30 +50,14 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.2.0</version>
-                <executions>
-                    <execution>
-                        <id>copy-resources</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <resources>
-                                <resource>
-                                    <directory>${basedir}</directory>
-                                    <includes>
-                                        <include>attenders.json</include>
-                                    </includes>
-                                </resource>
-                            </resources>
-                            <outputDirectory>${project.build.outputDirectory}</outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <outputDirectory>${basedir}/../jar</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
