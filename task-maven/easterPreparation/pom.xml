@@ -24,7 +24,6 @@
     
     <build>
         <plugins>
-            <!-- Создаем папку jar перед сборкой -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
